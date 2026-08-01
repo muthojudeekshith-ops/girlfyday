@@ -16,6 +16,7 @@ const wrongPassword = document.getElementById("wrongPassword");
 
 const loveHeading = document.getElementById("loveHeading");
 const emojiRain = document.getElementById("emojiRain");
+const loveText = document.getElementById("loveText");
 const message = `Yeah Baby,
 
 I actually don't care about Girlfriend Day because I LOVE YOU every single day.
@@ -72,9 +73,13 @@ if(password.value==="143gf"){
 
 showPage(page3);
 
+setTimeout(()=>{
+    typeWriter(message, loveText);
+},500);
+
 }else{
 
-wrongPassword.innerHTML="💖 Wrong Password Princess 💖";
+wrongPassword.innerHTML="💖 Wrong Password girlfyy 💖";
 
 document.querySelector(".security-box").animate([
 
