@@ -47,7 +47,7 @@ showPage(page2);
 
 goBtn.onclick=()=>{
 
-if(password.value==="imtheBESTGIRLFRIEND"){
+if(password.value==="143gf"){
 
 showPage(page3);
 
