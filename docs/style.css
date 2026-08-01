@@ -22,16 +22,20 @@ body{
 =========================== */
 
 .page{
+    position:fixed;
+    top:0;
+    left:0;
     width:100%;
-    min-height:100vh;
+    height:100vh;
     display:none;
-    overflow-x:hidden;
-    overflow-y:auto;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
     padding:20px;
 }
 
 .page.active{
-    display:block;
+    display:flex;
 }
 /* ===========================
    FLOATING HEARTS
@@ -464,12 +468,11 @@ body{
 
 }
 #page3{
-    display:block;
-    width:100%;
-    min-height:100vh;
+    display:none;
+    justify-content:flex-start;
+    align-items:flex-start;
     overflow-y:auto;
     overflow-x:hidden;
-    background:linear-gradient(135deg,#ffd6ec,#ffc6e5,#ffb8dc,#ff9ed2);
 }
 
 .love-container{
