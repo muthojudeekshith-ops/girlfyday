@@ -16,6 +16,21 @@ const wrongPassword = document.getElementById("wrongPassword");
 
 const loveHeading = document.getElementById("loveHeading");
 const emojiRain = document.getElementById("emojiRain");
+const message = `Yeah Baby,
+
+I actually don't care about Girlfriend Day because I LOVE YOU every single day.
+
+Not only because of love... I'm also a 24/7 GIRLFRIENDHOLIC (#UHOLIC 🤭😁).
+
+But for my BABY GIRLFYY...
+
+Happy National Girlfriend Day! 💖
+
+Today is all about celebrating you, but honestly, every single day for the past 1 year and 3 months has felt like a celebration because I'm UHOLIC 🤭😁.
+
+I have you in my life. Thank you for being the most amazing girlfriend.
+
+I LOVE YOU more than all the miles between Earth and the Sun... and back. 💓💓`;
 
 // =========================
 // CHANGE PAGE
