@@ -23,12 +23,18 @@ const emojiRain = document.getElementById("emojiRain");
 
 function showPage(page){
 
-document.querySelectorAll(".page").forEach(p=>{
-p.classList.remove("active");
-});
+    document.querySelectorAll(".page").forEach(p=>{
+        p.classList.remove("active");
+        p.style.display = "none";
+    });
 
-page.classList.add("active");
+    if(page.id === "page3"){
+        page.style.display = "block";
+    }else{
+        page.style.display = "flex";
+    }
 
+    page.classList.add("active");
 }
 
 // =========================
