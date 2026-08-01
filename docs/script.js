@@ -192,3 +192,35 @@ e.remove();
 },300);
 
 }
+function typeWriter(text, element, speed = 35) {
+
+    element.innerHTML = "";
+
+    let i = 0;
+
+    function type() {
+
+        if(i < text.length){
+
+            if(text.charAt(i) === "\n"){
+                element.innerHTML += "<br>";
+            }
+            else{
+                element.innerHTML += text.charAt(i);
+            }
+
+            i++;
+
+            setTimeout(type, speed);
+
+        }else{
+
+            // photos will start here later
+
+        }
+
+    }
+
+    type();
+
+}
