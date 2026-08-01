@@ -69,7 +69,7 @@ showPage(page2);
 
 goBtn.onclick=()=>{
 
-if(password.value==="143gf"){
+if(password.value==="143bestgf"){
 
 showPage(page3);
 
