@@ -219,7 +219,6 @@ function typeWriter(text, element, speed = 35) {
 
         }else{
 
-            // Start showing photos after typing finishes
             setTimeout(() => {
                 showPhotos();
             }, 1000);
@@ -232,7 +231,7 @@ function typeWriter(text, element, speed = 35) {
 
 }
 
-}
+// 👇 showPhotos should start immediately here
 function showPhotos() {
 
     const photos = document.querySelectorAll(".photo");
