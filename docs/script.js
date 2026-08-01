@@ -209,8 +209,7 @@ function typeWriter(text, element, speed = 35) {
 
             if(text.charAt(i) === "\n"){
                 element.innerHTML += "<br>";
-            }
-            else{
+            }else{
                 element.innerHTML += text.charAt(i);
             }
 
@@ -220,12 +219,32 @@ function typeWriter(text, element, speed = 35) {
 
         }else{
 
-            // photos will start here later
+            // Start showing photos after typing finishes
+            setTimeout(() => {
+                showPhotos();
+            }, 1000);
 
         }
 
     }
 
     type();
+
+}
+
+}
+function showPhotos() {
+
+    const photos = document.querySelectorAll(".photo");
+
+    photos.forEach((photo, index) => {
+
+        setTimeout(() => {
+
+            photo.classList.add("show");
+
+        }, index * 800);
+
+    });
 
 }
