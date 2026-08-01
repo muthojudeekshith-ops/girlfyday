@@ -469,7 +469,6 @@ body{
     min-height:100vh;
     overflow-y:auto;
     overflow-x:hidden;
-    padding:20px;
     background:linear-gradient(135deg,#ffd6ec,#ffc6e5,#ffb8dc,#ff9ed2);
 }
 
